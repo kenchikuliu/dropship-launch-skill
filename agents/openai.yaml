@@ -1,0 +1,7 @@
+interface:
+  display_name: "UK Dropship Launch"
+  short_description: "UK-first Shopify product test workflow."
+  default_prompt: "Use $uk-dropship-launch to choose a UK test product, draft the product page, and build a 7-day Meta ads validation plan."
+
+policy:
+  allow_implicit_invocation: true
