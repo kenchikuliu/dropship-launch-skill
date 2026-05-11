@@ -2,6 +2,8 @@
 
 Use this file when drafting Shopify product pages or rewriting weak product copy.
 
+Adapt currency, shipping copy, and guarantee language to the chosen market.
+
 ## Shared Structure
 
 1. headline
@@ -16,9 +18,9 @@ Use this file when drafting Shopify product pages or rewriting weak product copy
 
 ## Under-Desk Hidden Drawer
 
-### Price
+### Price Anchor
 
-- start at `GBP 29.99`
+- use the local equivalent of `GBP 29.99`
 
 ### Headline
 
@@ -34,33 +36,11 @@ An instant under-desk storage drawer for cables, pens, adapters, notes, and ever
 - keeps essentials hidden but close
 - installs fast with no drilling
 
-### Problem
-
-Desks get messy because the small items never have a place. This hidden drawer creates one clean storage zone without changing the look of the desk.
-
-### How It Works
-
-Attach the drawer under a clean, flat desk surface. Slide it out when you need something. Slide it back when you want the space to look clean again.
-
-### FAQ
-
-`Will it fit my desk?`
-
-It works best on flat desk surfaces with enough clearance underneath. Always list exact dimensions.
-
-`Does it need tools?`
-
-The standard version should be sold as a no-drill install.
-
-`What can it hold?`
-
-Pens, notes, cables, adapters, earbuds, and other small everyday items.
-
 ## Pull-Out Under-Sink Organizer
 
-### Price
+### Price Anchor
 
-- start at `GBP 34.99`
+- use the local equivalent of `GBP 34.99`
 
 ### Headline
 
@@ -76,29 +56,11 @@ A pull-out organizer that helps you reach bottles, cleaning products, and toilet
 - cleaner cabinet layout
 - useful in kitchen, bathroom, or utility spaces
 
-### Problem
-
-Under-sink storage becomes dead space fast. Bottles tip over, products get pushed to the back, and nothing feels organized.
-
-### How It Works
-
-Place the organizer inside the cabinet, load your most-used items, and pull it forward when you need them.
-
-### FAQ
-
-`How do I know if it fits?`
-
-List width, depth, and height clearly.
-
-`Is assembly required?`
-
-Avoid complicated SKUs for a first-wave test.
-
 ## Reusable Pet Hair Remover Roller
 
-### Price
+### Price Anchor
 
-- start at `GBP 24.99`
+- use the local equivalent of `GBP 24.99`
 
 ### Headline
 
@@ -113,21 +75,3 @@ A reusable pet hair remover for quick everyday cleanup on the surfaces pet owner
 - visible results fast
 - reusable for repeated cleanup
 - works across common fabric surfaces
-
-### Problem
-
-Pet hair builds up quickly and makes everyday spaces feel harder to keep clean.
-
-### How It Works
-
-Roll the tool over the surface, collect the loose hair, empty it, and use it again as needed.
-
-### FAQ
-
-`Does it work on every fabric?`
-
-Do not claim universal performance. State supported surfaces clearly.
-
-`Is it better than lint rollers?`
-
-Position it as a reusable option for repeat cleanup, not as a universal replacement.

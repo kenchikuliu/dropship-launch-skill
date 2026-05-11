@@ -2,10 +2,14 @@
 
 Use this file when the user has not committed to a product yet.
 
-## Default Market
+## Product Traits To Prioritize
 
-- market: United Kingdom
-- store model: one product first
+- clear problem
+- easy demo
+- low claim risk
+- low fitment risk
+- low breakage risk
+- supports paid traffic margin
 
 ## First-Wave Shortlist
 
@@ -27,9 +31,8 @@ Use this file when the user has not committed to a product yet.
 
 - strong before/after visuals
 - easy short-form demos
-- low claim risk
-- low fitment complexity
 - broad household demand
+- safer for first validation than regulated or complex items
 
 ## Scoring Rules
 
@@ -49,10 +52,12 @@ Reject products that fail on:
 - fragile construction
 - regulated or claim-heavy marketing
 
-## Suggested Price Bands
+## Suggested Price Positioning
 
-- low tool or accessory: `GBP 24.99` to `GBP 29.99`
-- stronger organizer SKU: `GBP 29.99` to `GBP 39.99`
+Adjust by market, but use these as rough anchors:
+
+- small utility item: local equivalent of `GBP 24.99` to `GBP 29.99`
+- stronger organizer SKU: local equivalent of `GBP 29.99` to `GBP 39.99`
 
 ## Default Recommendation
 
@@ -63,6 +68,5 @@ If the user asks "what should I launch first," start with:
 Reason:
 
 - easy to explain
-- strong office/home use crossover
-- clean video transformation angle
+- clear office/home use crossover
 - simple single-purpose offer

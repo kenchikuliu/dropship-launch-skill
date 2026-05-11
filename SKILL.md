@@ -1,17 +1,17 @@
 ---
-name: uk-dropship-launch
-description: Use when the user wants to launch or validate a UK Shopify dropshipping product, choose low-risk product directions, draft product pages and Meta ads, or run a 7-day first-test plan for products like home organization, office improvement, or pet accessories.
+name: dropship-launch
+description: Use when the user wants to launch or validate a Shopify dropshipping product, compare launch markets like the UK, US, or Brazil, choose low-risk product directions, draft product pages and Meta ads, or run a 7-day first-test plan for products like home organization, office improvement, pet accessories, and other easy-to-demo physical goods.
 ---
 
-# UK Dropship Launch
+# Dropship Launch
 
-Use this skill when the user wants to turn a vague dropshipping idea into a practical UK-first launch plan.
+Use this skill when the user wants to turn a vague dropshipping idea into a practical launch workflow.
 
 This skill is optimized for:
 
-- first-wave UK product selection
+- choosing the first launch market
+- picking low-risk products for first validation
 - single-product or tightly themed Shopify tests
-- low-risk physical products that are easy to demo in short video
 - product page copy, ad angles, and a 7-day validation workflow
 
 It is not for:
@@ -26,7 +26,7 @@ It is not for:
 Use this skill if the user is asking any of these:
 
 - what country should I launch first
-- what products should I test first in the UK
+- what products should I test first
 - help me pick a dropshipping product
 - write my Shopify product page
 - write Meta ads for a product
@@ -34,18 +34,38 @@ Use this skill if the user is asking any of these:
 
 ## Workflow
 
-### 1. Lock the launch scope
+### 1. Choose the market before the product
+
+Do not assume one market fits all. Pick the market first based on:
+
+- shipping model
+- payment and company setup
+- language and localization burden
+- tax and import friction
+- expected delivery speed
+
+Default market logic:
+
+- `United Kingdom`: strong first market for English-language direct tests with light products
+- `United States`: stronger if the user has local inventory, 3PL access, or can absorb import friction
+- `Brazil`: only if the user can handle stronger localization and local payment expectations
+
+If the user has not decided, default to a recommendation, not a universal claim.
+
+Use [references/market-selection.md](references/market-selection.md) when choosing the first country.
+
+### 2. Lock the launch scope
 
 Default to:
 
-- market: `United Kingdom`
 - store model: single-product or tightly themed
 - traffic source: `Meta ads`
-- price band: `GBP 24.99` to `GBP 39.99`
+- product type: low-risk physical goods
+- price band: market-adjusted but typically equivalent to `GBP 24.99` to `GBP 39.99`
 
 If the user has not chosen a product, start with a shortlist, not a full store build.
 
-### 2. Filter product directions hard
+### 3. Filter product directions hard
 
 Only recommend products that pass all of these:
 
@@ -54,7 +74,7 @@ Only recommend products that pass all of these:
 - it is light enough for simple shipping
 - it does not depend on complicated sizing, fitment, or compatibility
 - it does not require health, safety, or performance claims
-- it can support ads, VAT, shipping, and refunds
+- it can support ads, tax, shipping, and refunds
 
 Avoid:
 
@@ -65,11 +85,11 @@ Avoid:
 - complex apparel
 - car parts with compatibility risk
 
-### 3. Pick one product before writing assets
+### 4. Pick one product before writing assets
 
 Do not write full launch assets for three products at once unless the user explicitly wants parallel test assets.
 
-Default first product:
+Default first products:
 
 1. under-desk hidden drawer
 2. pull-out under-sink organizer
@@ -77,7 +97,7 @@ Default first product:
 
 Use [references/product-shortlist.md](references/product-shortlist.md) for the first-wave shortlist and scoring logic.
 
-### 4. Build the product page
+### 5. Build the product page
 
 Draft a page with:
 
@@ -93,7 +113,7 @@ Draft a page with:
 
 Use [references/product-pages.md](references/product-pages.md) for reusable copy structure.
 
-### 5. Build ads around the problem, not the product
+### 6. Build ads around the problem, not the product
 
 Default creative types:
 
@@ -109,9 +129,9 @@ For each product, prepare:
 
 Use [references/ad-scripts.md](references/ad-scripts.md).
 
-### 6. Run a 7-day test, not a long debate
+### 7. Run a 7-day test, not a long debate
 
-The goal is not to prove a business model in theory. The goal is to validate whether the product earns more attention and buyer intent than the next candidate.
+The goal is not to prove a business model in theory. The goal is to validate whether the product earns more attention and buyer intent than the next candidate in the chosen market.
 
 Use [references/test-plan.md](references/test-plan.md) for:
 
@@ -122,7 +142,7 @@ Use [references/test-plan.md](references/test-plan.md) for:
 - scale rules
 - day-by-day execution
 
-### 7. Keep operations honest
+### 8. Keep operations honest
 
 Before launch, verify:
 
@@ -132,6 +152,7 @@ Before launch, verify:
 - refund policy
 - tracking setup
 - mobile checkout
+- market-specific tax or payment assumptions
 
 Use [references/ops-checklist.md](references/ops-checklist.md).
 
@@ -139,14 +160,16 @@ Use [references/ops-checklist.md](references/ops-checklist.md).
 
 When using this skill:
 
-- recommend one primary product unless the user asks for multiple
-- be explicit about price, angle, and why it is testable
+- recommend one primary market and one primary product unless the user asks for multiple
+- be explicit about why the market fits the shipping and product model
+- be explicit about price, angle, and why the product is testable
 - optimize for action, not theory
 - separate assumptions from confirmed facts
 - avoid pretending the product is validated before the market test
 
 ## Files To Read
 
+- `references/market-selection.md`: when choosing the first launch country
 - `references/product-shortlist.md`: when choosing products or categories
 - `references/product-pages.md`: when drafting a Shopify page
 - `references/ad-scripts.md`: when drafting Meta ads or UGC angles

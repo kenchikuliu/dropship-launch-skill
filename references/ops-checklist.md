@@ -4,12 +4,13 @@ Use this file when preparing launch or diagnosing failure.
 
 ## Before Launch
 
-- confirm supplier shipping to the UK
+- confirm supplier shipping to the chosen market
 - confirm dimensions and packaging
 - confirm refunds and returns policy
 - confirm tracking events
 - confirm mobile checkout works
 - confirm no risky product claims are on the page
+- confirm market-specific payment and tax assumptions
 
 ## Product Validation
 
